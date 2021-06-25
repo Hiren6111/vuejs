@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
+    "build:prod": "ng-build --prod",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
