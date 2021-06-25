@@ -2,7 +2,8 @@ module.exports = {
     ci: {
       collect: {
         numberOfRuns: 3,
-        staticDistDir: "./dist/ng-github-lighthouse-ci",
+        url: ['http://localhost:3000/'],
+        startServerCommand: 'npm run dev',
       },
       assert: {
         assertions: {
